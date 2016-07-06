@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PatientManagementApp.Properties
+namespace PatientManagementUI.Properties
 {
 
 
