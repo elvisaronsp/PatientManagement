@@ -36,6 +36,7 @@
             this.btn_search = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,9 +117,19 @@
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDown);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(41, 141);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(181, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Right mouse click patient for options.";
+            // 
             // FHIRSearch
             // 
             this.ClientSize = new System.Drawing.Size(888, 475);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_search);
@@ -146,5 +157,6 @@
         private System.Windows.Forms.Button btn_search;
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
     }
 }
